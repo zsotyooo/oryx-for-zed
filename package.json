@@ -1,0 +1,35 @@
+{
+  "name": "sable-for-zed",
+  "version": "0.1.0",
+  "description": "Spryker ZED frontend automation tool (sable based)",
+  "author": {
+    "name": "Spryker Sytems GmbH",
+    "email": "info@spryker.com",
+    "url": "http://spryker.com"
+  },
+  "repository": {
+    "url": "git@github.com:spryker/sable-for-zed.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "~6.7.0",
+    "css-loader": "~0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "file-loader": "~0.9.0",
+    "node-sass": "~4.3.0",
+    "postcss-loader": "~1.2.2",
+    "resolve-url-loader": "~1.6.1",
+    "sass-loader": "~4.1.1",
+    "style-loader": "~0.13.1",
+    "webpack": "~2.2.0",
+    "yargs": "~6.6.0"
+  },
+  "peerDependencies": {
+    "sable": "^0.1.0"
+  }
+}
