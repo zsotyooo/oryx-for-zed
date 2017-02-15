@@ -1,6 +1,7 @@
 'use strict';
 
-const impala = require('impala');
+const sable = require('sable');
 const api = require('./lib');
 
-impala.build(api.getConfig(api.settings));
+const configuration = api.getConfig(api.settings);
+sable.build(configuration);
