@@ -1,6 +1,6 @@
 {
   "name": "sable-for-zed",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Spryker ZED frontend automation tool (sable based)",
   "author": {
     "name": "Spryker Sytems GmbH",
@@ -30,6 +30,6 @@
     "yargs": "~6.6.0"
   },
   "peerDependencies": {
-    "sable": "^0.1.0"
+    "sable": "^0.2.0"
   }
 }
