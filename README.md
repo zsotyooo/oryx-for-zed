@@ -1,5 +1,5 @@
-# sable for Zed
+# oryx for Zed
 
-Spryker ZED frontend automation tool (sable based)
+Spryker ZED frontend automation tool (oryx based)
 
-**For more info about sable, [click here](https://github.com/spryker/sable).**
+For more info about **oryx**, [click here](https://github.com/spryker/oryx).

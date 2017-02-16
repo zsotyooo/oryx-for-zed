@@ -1,14 +1,14 @@
 {
-  "name": "sable-for-zed",
-  "version": "0.3.0",
-  "description": "Spryker ZED frontend automation tool (sable based)",
+  "name": "@spryker/oryx-for-zed",
+  "version": "0.4.0",
+  "description": "Spryker ZED frontend automation tool (oryx based)",
   "author": {
     "name": "Spryker Sytems GmbH",
     "email": "info@spryker.com",
     "url": "http://spryker.com"
   },
   "repository": {
-    "url": "git@github.com:spryker/sable-for-zed.git",
+    "url": "git@github.com:spryker/oryx-for-zed.git",
     "type": "git"
   },
   "license": "MIT",
@@ -30,6 +30,6 @@
     "yargs": "~6.6.0"
   },
   "peerDependencies": {
-    "sable": "^0.2.0"
+    "@spryker/oryx": "^0.3.0"
   }
 }
