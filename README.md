@@ -41,7 +41,7 @@ oryx comes with a peer dependency:
 Once installed, you can:
 
 - call the builder directly from your scripts
-- extend/change the settings/`webpack`configuration for your custom Zed build
+- extend/change the settings/`webpack` configuration for your custom Zed build
 
 ### Simple builder
 
@@ -107,9 +107,9 @@ your `webpack` custom configuration:
 
 ```js
 const oryxForZed = require('@spryker/oryx-for-zed');
-const defaultConfiguration = oryxForZed.getConfiguration(oryxForZed.settings);
+const oryxConfiguration = oryxForZed.getConfiguration(oryxForZed.settings);
 
-const myCustomZedConfiguration = Object.assign({}, defaultConfiguration, {
+const myCustomZedConfiguration = Object.assign({}, oryxConfiguration, {
     // your own configuration
 });
 
@@ -151,7 +151,8 @@ oryxForZed.settings
 ```
 
 Contain all the basic setting used in the `webpack` configuration.
-[Look here (code)]() for more details.
+
+[Look here (code)](https://github.com/spryker/oryx-for-zed/blob/master/lib/settings.js) for more details.
 
 #### getConfiguration()
 
@@ -160,7 +161,8 @@ oryxForZed.getConfiguration(settings)
 ```
 
 Return the default Zed `webpack` configuration, based on provided `settings`.
-[Look here (code)]() for more details.
+
+[Look here (code)](https://github.com/spryker/oryx-for-zed/blob/master/lib/webpack.config.js) for more details.
 
 #### CLI args
 
