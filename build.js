@@ -1,7 +1,7 @@
 'use strict';
 
-const sable = require('sable');
+const oryx = require('@spryker/oryx');
 const api = require('./lib');
 
 const configuration = api.getConfig(api.settings);
-sable.build(configuration);
+oryx.build(configuration);
