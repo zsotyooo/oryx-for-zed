@@ -3,5 +3,5 @@
 const oryx = require('@spryker/oryx');
 const api = require('./lib');
 
-const configuration = api.getConfig(api.settings);
+const configuration = api.getConfiguration(api.settings);
 oryx.build(configuration);
