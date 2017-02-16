@@ -12,9 +12,9 @@ Spryker ZED frontend automation tool (oryx based)
 
 ## Introduction
 
-This is an extension of oryx that perform a full build for Spryker Zed UI applications. 
-It also provide access to its settings and `webpack` configuration so you are able
-to extend/change the building process for Zed.
+This is an extension of oryx that **performs a full build for Spryker Zed UI** applications. 
+It also provides access to Zed settings and Zed `webpack` configuration, so you are able
+to extend/change the whole building process.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ npm install @spryker/oryx-for-zed --save-dev
 yarn add @spryker/oryx-for-zed --dev
 ```
 
-oryx comes with a peer dependency:
+oryx-for-zed comes with a peer dependency:
 
 - `oryx` version >= 0.3.x
 
@@ -40,7 +40,7 @@ oryx comes with a peer dependency:
 
 Once installed, you can:
 
-- call the builder directly from your scripts
+- call the builder directly from your scripts (simple builder)
 - extend/change the settings/`webpack` configuration for your custom Zed build
 
 ### Simple builder
@@ -65,12 +65,12 @@ yarn run build-zed
 
 ### Extend/change settings
 
-If you want to customise settings, just rely on onyx-for-zed API.
+If you want to customise settings, just rely on onyx-for-zed [API](#api).
+The following example shows how to create a custom build.
 
 #### build.js
-Create a `build.js` file in your project containing custom settings,
-the logic needed to pass them to the `webpack` configuration 
-and the builder:
+Create a `build.js` file in your project containing your custom settings
+and the logic needed to get the `webpack` configuration and run the builder:
 
 ```js
 const oryx = require('@spryker/oryx');
@@ -98,8 +98,8 @@ Add a script into your `package.json` pointing to `build.js`.
 
 ### Extend/change `webpack` configuration
 
-If you want to customise the configuration, just rely on onyx-for-zed API.
-As you can see, you can decideto change settings too.
+If you want to customise the `webpack` configuration, just rely on onyx-for-zed [API](#api).
+The following example shows how to create a custom build.
 
 #### webpack.config.js
 Create a `webpack.config.js` file in your project containing 
@@ -117,8 +117,8 @@ module.exports = myCustomZedConfiguration;
 ```
 
 #### build.js
-Create a `build.js` file in your project containing 
-the logic needed to pass the custom `webpack` configuration to the builder:
+Create a `build.js` file in your project containing your `webpack` configuration 
+and the logic needed to run the builder:
 
 ```js
 const oryx = require('@spryker/oryx');
@@ -167,7 +167,7 @@ Return the default Zed `webpack` configuration, based on provided `settings`.
 #### CLI args
 
 oryx-for-zed uses some arg to customise the build process.
-You can pass them by terminal:
+You can pass them using the terminal:
 
 ```bash
 npm run script-name -- --arg
