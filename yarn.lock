@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@spryker/oryx@^0.4.0":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@spryker/oryx/-/oryx-0.4.1.tgz#b37f1e1b47cfb97e58f93c084d37eb9ec5b46851"
+"@spryker/oryx@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@spryker/oryx/-/oryx-0.4.4.tgz#b6eb4c7f927ab3a3f98be7361edfe4ee3dea6329"
   dependencies:
     globby "~6.1.0"
     moment "~2.17.1"
@@ -2188,8 +2188,8 @@ postcss-zindex@^2.0.1:
     uniqs "^2.0.0"
 
 postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.15:
-  version "5.2.15"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.15.tgz#a9e8685e50e06cc5b3fdea5297273246c26f5b30"
+  version "5.2.16"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.16.tgz#732b3100000f9ff8379a48a53839ed097376ad57"
   dependencies:
     chalk "^1.1.3"
     js-base64 "^2.1.9"
