@@ -1,4 +1,4 @@
-# oryx for Zed
+# oryx for Zed (beta)
 
 Spryker ZED frontend automation tool (oryx based)
 
