@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.3 (beta)
+Released on 07.03.2017
+
+- update dependecies:
+    - @spryker/oryx ^0.4.0 > ^0.4.3
+
 ## 0.5.2 (beta)
 Released on 07.03.2017
 
