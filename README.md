@@ -189,6 +189,7 @@ Or embedding them into the script section in `package.json`:
 
 - `--dev`: development mode; enable `webpack` watchers on the code
 - `--prod`: production mode; enable assets optimisation/compression
+- `--boost`: build boost mode **(experimental)**; build assets using `eval` source maps
 
 If no arg is passed, development is activated but without watchers.
 
