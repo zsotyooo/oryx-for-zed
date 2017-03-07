@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1 (beta)
+Released on 07.03.2017
+
+- remove `extract-text-webpack-plugin` deprecations in `webpack.config.js` file
+- - update engines:
+    - npm >=3.0.0
+    - remove yarn
+
 ## 0.5.0 (beta)
 Released on 07.03.2017
 
