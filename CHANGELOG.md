@@ -1,10 +1,16 @@
 # Changelog
 
+## 0.5.2 (beta)
+Released on 07.03.2017
+
+- update dependecies:
+    - @spryker/oryx ^0.3.0 > ^0.4.0
+
 ## 0.5.1 (beta)
 Released on 07.03.2017
 
 - remove `extract-text-webpack-plugin` deprecations in `webpack.config.js` file
-- - update engines:
+- update engines:
     - npm >=3.0.0
     - remove yarn
 
