@@ -1,5 +1,12 @@
 # Changelog
 
+### 0.5.5 (beta)
+Released on 29.03.2017
+
+- update webpack configuration to remove errors introduced due to webpack update
+- update dependecies:
+    - webpack ~2.2.0 > ~2.3.2
+
 ### 0.5.4 (beta)
 Released on 07.03.2017
 
