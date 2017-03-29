@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.5.6 (beta)
+Released on 29.03.2017
+
+- update webpack commonsChunckPlugin configuration
+
 ### 0.5.5 (beta)
 Released on 29.03.2017
 
