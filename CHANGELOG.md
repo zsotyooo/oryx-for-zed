@@ -1,5 +1,12 @@
 # Changelog
 
+### 0.5.8 (beta)
+Released on 30.03.2017
+
+- remove handler for `oryx.build()` promise
+- update dependecies:
+    - @spryker/oryx ^0.4.8 => ^0.4.9
+
 ### 0.5.7 (beta)
 Released on 30.03.2017
 
