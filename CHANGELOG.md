@@ -1,5 +1,13 @@
 # Changelog
 
+### 0.5.7 (beta)
+Released on 30.03.2017
+
+- handle `oryx.build()` promise
+- use `oryx.build.loadCompiler()` to load webpack
+- update dependecies:
+    - @spryker/oryx ^0.4.4 > ^0.4.8
+
 ### 0.5.6 (beta)
 Released on 29.03.2017
 
