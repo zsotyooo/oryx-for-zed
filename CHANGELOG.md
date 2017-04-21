@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.0.0
+Released on 21.04.2017
+
+- documentation moved to [spryker.github.io/user-interface/oryx/for-zed](http://spryker.github.io/user-interface/oryx/for-zed)
+- update dependecies:
+    - @spryker/oryx ^0.4.9 => ^1.0.0
+
 ### 0.5.8 (beta)
 Released on 30.03.2017
 
