@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "public/Zed/assets/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*",
+                "vendor/spryker/spryker/gui-component-collection/src/Spryker/Zed/GuiComponentCollection/Presentation/*",
+                "vendor/spryker/spryker/Bundles/GuiComponentCollection/src/Spryker/Zed/GuiComponentCollection/Presentation/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules/*",
+        "public/*",
+        "src/*",
+        "deploy/*",
+        "assets/*",
+        "config/*"
+    ]
+}
