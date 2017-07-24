@@ -1,7 +1,5 @@
-'use strict';
-
 const oryx = require('@spryker/oryx');
 const api = require('./lib');
-const configuration = api.getConfiguration(api.settings);
+const guiConfig = api.getGuiConfig(api.settings);
 
-oryx.build(configuration);
+oryx.build(guiConfig);
