@@ -1,6 +1,6 @@
 {
   "name": "@spryker/oryx-for-zed",
-  "version": "1.2.0-alpha",
+  "version": "2.0.0-alpha",
   "description": "Spryker ZED frontend automation tool (oryx based)",
   "author": {
     "name": "Spryker Sytems GmbH",
@@ -18,7 +18,7 @@
     "npm": "^3.0.0 || ^4.0.0"
   },
   "dependencies": {
-    "@spryker/oryx": "^1.1.0",
+    "@spryker/oryx": "https://github.com/spryker/oryx.git#v2.0",
     "autoprefixer": "~6.7.0",
     "awesome-typescript-loader": "~3.2.1",
     "babel-core": "~6.25.0",
